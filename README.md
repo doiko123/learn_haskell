@@ -26,3 +26,21 @@ Prelude>
 ロードしたファイルを再ロードする際は、以下のように行う。
 *Main> :l hoge.hs
 ```
+## ターミナル上でhsファイルをスクリプトとして実行する
+
+- まず以下のようなファイルを用意。
+```
+ファイル名: fizzbuzz.hs
+中身: main = putStrLn "Hello, World!
+```
+
+- 次にターミナルで下記を実行
+（自分の場合はstack runghcで動かしてる）
+```
+runghc fizzbuzz.hs
+```
+
+- 出力
+```
+Hello, World!
+```
