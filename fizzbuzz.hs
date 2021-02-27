@@ -17,7 +17,7 @@ fizzBuzz n max
         return =<< fizzBuzz (n + 1) max
 
 main = do
-  putStrLn "FizzBuzzをやるよ"
-  fizzBuzz 1 100
+    putStrLn "FizzBuzzをやるよ"
+    fizzBuzz 1 100
 
 -- 参考Qiita：https://qiita.com/ikuo0/items/0c48532927f0a587431a
