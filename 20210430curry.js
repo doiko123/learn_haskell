@@ -9,8 +9,6 @@
 // https://qiita.com/7shi/items/a0143daac77a205e7962
 // https://developer.yukimonkey.com/article/20200303/
 
-
-
 // ①非カリー化
 const multThree = (x,y,z) => {
   return x * y * z
